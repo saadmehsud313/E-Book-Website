@@ -1,0 +1,19 @@
+#contactButton{
+    transition: color 0.3s ease;
+    &:hover{
+        color: --bs-dark;
+    }
+}
+.header{
+    background: url("../images/header-background.jpg") center center no-repeat;
+    background-size: cover;
+}
+@media(max-width: 1000px){
+    .hero .image-container{
+        display:flex;
+        justify-content:center;
+    }
+    .hero .text-container{
+        text-align: center;
+    }
+}

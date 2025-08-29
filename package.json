@@ -1,0 +1,17 @@
+{
+  "name": "e-book-website",
+  "version": "1.0.0",
+  "description": "E-book Website",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --watch --no-source-map scss:css"
+  },
+  "author": "Saad Mehsud",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.0",
+    "bootstrap": "^5.3.8",
+    "sass": "^1.91.0"
+  }
+}
