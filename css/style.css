@@ -19,8 +19,18 @@
   opacity: 0.9;
 }
 
-.modal-dialog {
-  max-width: 1090px;
+.modal {
+  transition: all 0.9s ease-in-out;
+}
+
+.modal-button {
+  padding: 10px;
+  width: 60px;
+}
+
+.free-blog {
+  background: url("../images/header-background.jpg") center center no-repeat;
+  background-size: cover;
 }
 
 @media (max-width: 1000px) {
